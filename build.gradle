@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.exchange'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_20
+targetCompatibility = JavaVersion.VERSION_20
+
+repositories {
+    mavenCentral()
+}
